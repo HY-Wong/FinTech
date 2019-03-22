@@ -42,4 +42,4 @@ if html.status_code == requests.codes.ok:
             CILoans_df.loc[curr_index] = [date.strftime("%Y-%m"), tds[0].string, tds[1].string]
 
 # write the data frame into a csv file
-CILoans_df.to_csv(argv_list[1] + '/' + 'C&I Loans.csv')
+CILoans_df.to_csv(argv_list[1] + '/' + 'C&ILoans.csv')
