@@ -15,7 +15,7 @@ $ python3 ETF.py DevelopedMarketsETF24.csv ETF24.csv ETF24
 ```
 
 ### 流程圖
-![](https://github.com/HY-Wong/Image/blob/master/flowchart1.png)
+![](https://github.com/HY-Wong/Image/blob/master/flowchart1.png =250x)
 
 ### 套件使用
 - csv\
