@@ -15,7 +15,7 @@ $ python3 ETF.py DevelopedMarketsETF24.csv ETF24.csv ETF24
 ```
 
 ### 流程圖
-<img src="https://github.com/HY-Wong/Image/blob/master/flowchart1.png" width="400">
+<img src="https://github.com/HY-Wong/Image/blob/master/flowchart1.png" width="200">
 
 ### 套件使用
 - csv\
@@ -53,7 +53,8 @@ $ python3 DemandforLoan.py FinancialIndicator
 ```
 
 ### 流程圖
-![](https://github.com/HY-Wong/Image/blob/master/flowchart2.png)
+<img src="https://github.com/HY-Wong/Image/blob/master/flowchart2.png" width="200">
+
 ### 注意事項
 - 下載`DemandforLoan.py`，打開終端機將工作目錄（working directory）切換至檔案存放的目錄即可執行程式
 - 須自行建立欲將資料寫進的目錄（`[directory]`）
