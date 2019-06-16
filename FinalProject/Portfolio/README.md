@@ -21,5 +21,10 @@ $ pytpython3 select_etf
 ```
 $ pytpython3 portfolio.py [categories]
 e.g.
-$ pytpython3 portfolio.py Alternatives BroadAsia Commodity ConsumerDiscretionaryEquity ConsumerStaplesEquity CrudeOil Currency DevelopedAsiaPacific DevelopedEurope DevelopedMarket1 DevelopedMarket2 DevelopedMarket3 EmergingAsiaPacific EmergingMarkets EnergyEquity FinancialsEquity Global Gold HealthcareEquity IndustrialsEquity InvestmentGradeCorporate Junk MaterialsEquity MunicipalBond PreferredStock RealEstate TargetMaturityDateCorporateBond TechnologyEquity TelecomEquity TotalBondMarket Treasuries UtilitiesEquity Volatility
+$ pytpython3 portfolio.py Alternatives BroadAsia Commodity ConsumerDiscretionaryEquity 
+ConsumerStaplesEquity CrudeOil Currency DevelopedAsiaPacific DevelopedEurope DevelopedMarket1 
+DevelopedMarket2 DevelopedMarket3 EmergingAsiaPacific EmergingMarkets EnergyEquity FinancialsEquity 
+Global Gold HealthcareEquity IndustrialsEquity InvestmentGradeCorporate Junk MaterialsEquity 
+MunicipalBond PreferredStock RealEstate TargetMaturityDateCorporateBond TechnologyEquity 
+TelecomEquity TotalBondMarket Treasuries UtilitiesEquity Volatility
 ```
