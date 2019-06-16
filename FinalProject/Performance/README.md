@@ -6,7 +6,7 @@
 - Sharpe Raio
 - Omega: 2011. Omega performance measure and portfolio insurance
 - Riskness R: 2013. A global index of riskiness <br />
-（註：「Generalized Sharpe Ratios: 2009. Portfolio performance evaluation with generalized Sharpe ratios: Beyond the mean and variance」計算條件很多檔ETF之月報酬資料皆不滿足，因此採用傳統之Sharpe Ratio）
+註：「Generalized Sharpe Ratios: 2009. Portfolio performance evaluation with generalized Sharpe ratios: Beyond the mean and variance」計算條件很多檔ETF之月報酬資料皆不滿足，因此採用傳統之Sharpe Ratio。
 
 ### 執行方法
 ```
