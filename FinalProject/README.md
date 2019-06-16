@@ -34,5 +34,5 @@ Treasuries UtilitiesEquity Volatility
 
 ### 實作功能
 
-- ETF 績效查詢：執行方式見`PerfomanceQuery`
-- ETF 權重查詢：執行方式見`Portfolio`
+- ETF 績效查詢：執行方式見`PerfomanceQuery`資料夾
+- ETF 權重查詢：執行方式見`Portfolio`資料夾
