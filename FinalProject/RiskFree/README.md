@@ -6,5 +6,5 @@
 
 ### 執行方法
 ```
-$ python3 ETF.py risk_free.csv
+$ python3 risk_free.py risk_free.csv
 ```
