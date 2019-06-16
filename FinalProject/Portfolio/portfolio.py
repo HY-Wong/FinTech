@@ -106,4 +106,4 @@ optimal_w = solvers.qp(S, -q, G, h, A, b)['x']
 
 # result of optimal weight
 weight_df['Weight'] = np.asarray(optimal_w)
-weight_df = weight_df.to_csv('weight.csv')
+weight_df = weight_df.to_csv('weight.csv', index = False)
