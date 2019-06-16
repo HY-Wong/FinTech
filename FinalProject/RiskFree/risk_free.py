@@ -78,5 +78,5 @@ if week_rf:
 week_df['risk_free'] = week_rf_list
 
 # write result
-month_df.to_csv('risk_free_month.csv')
-week_df.to_csv('risk_free_week.csv')
+month_df.to_csv('risk_free_month.csv', index = False)
+week_df.to_csv('risk_free_week.csv', index = False)
