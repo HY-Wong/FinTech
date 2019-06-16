@@ -2,34 +2,37 @@
 
 ### 資料夾說明
 
-`ETF`檔中讀取ETF清單，篩選出inception date在2015年之前的ETF，將篩選結果寫入`output.csv`。從Yahoo Finance中抓取ETF自2015年底最後一個交易日至今天的調整後收盤價（adjusted close），寫入`[directory]/XXX.csv`（XXX為某檔ETF的symbol）。
+- `ETF`：從33個ETF類別的csv檔中，篩選出inception date在2013年之後有資料的ETF，抓取ETF調整後收盤價（adjusted close），
 
-`Perfomance`
+- `Perfomance`：利用`ETF`中的ETF調整後收盤價（adjusted close），計算月報酬率、週報酬率與ETF績效。
 
-`PerfomanceQuery`
+- `PerfomanceQuery`：查詢任一ETF類別中，查詢2013年1月至2019年5月間任一區間各檔ETF的績效，指定以其中一種績效衡量指標排序。
 
-`Portfolio`
+- `Portfolio`：查詢33個ETF類別中，任選其中的類別，計算最適配置權重。
 
-`RiskFree`
+- `RiskFree`：計算 U.S. 10 Year Treasury 月資料與週資料。
 
 資料來源：
 - [ETF](https://etfdb.com)
 - [Yahoo Finance](https://www.federalreserve.gov/data/sloos.htm)
+- [U.S. 10 Year Treasury](https://www.cnbc.com/quotes/?symbol=US10Y)
 
 ### ETF 類別
-Alternatives  BroadAsia Commodity ConsumerDiscretionaryEquity ConsumerStaplesEquity
-CrudeOil  Currency  DevelopedAsiaPacific  DevelopedEurope DevelopedMarket1
-DevelopedMarket2  DevelopedMarket3  EmergingAsiaPacific EmergingMarkets EnergyEquity
-FinancialsEquity  Global  Gold  HealthcareEquity  IndustrialsEquity
-InvestmentGradeCorporate  Junk  MaterialsEquity MunicipalBond PreferredStock 
-RealEstate  TargetMaturityDateCorporateBond TechnologyEquity TelecomEquity TotalBondMarket 
+Alternatives BroadAsia Commodity ConsumerDiscretionaryEquity ConsumerStaplesEquity <br />
+CrudeOil Currency DevelopedAsiaPacific DevelopedEurope DevelopedMarket1 <br />
+DevelopedMarket2 DevelopedMarket3 EmergingAsiaPacific EmergingMarkets EnergyEquity <br />
+FinancialsEquity Global Gold HealthcareEquity IndustrialsEquity <br />
+InvestmentGradeCorporate Junk MaterialsEquity MunicipalBond PreferredStock <br />
+RealEstate TargetMaturityDateCorporateBond TechnologyEquity TelecomEquity TotalBondMarket <br />
 Treasuries UtilitiesEquity Volatility
 
+### 績效指標
+- Sharpe Raio
+- Omega: 2011. Omega performance measure and portfolio insurance
+- Riskness R: 2013. A global index of riskiness <br />
+註：「Generalized Sharpe Ratios: 2009. Portfolio performance evaluation with generalized Sharpe ratios: Beyond the mean and variance」計算條件很多檔ETF之月報酬資料皆不滿足，因此採用傳統之Sharpe Ratio。
+
 ### 實作功能
-- ETF 績效查詢
-```
-$ python3 ETF.py [input.csv] [output.csv] [directory]
-e.g.
-$ python3 ETF.py DevelopedMarketsETF24.csv ETF24.csv ETF24
-```
-- ETF
+
+- ETF 績效查詢：執行方式見`PerfomanceQuery`
+- ETF 權重查詢：執行方式見`Portfolio`
