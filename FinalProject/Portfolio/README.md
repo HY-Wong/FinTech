@@ -1,7 +1,7 @@
 ## 功能實作二
 
 ### 計算最佳權重
-查詢33個ETF類別中，任選其中的類別，計算最適配置權重，寫入`weight.csv`。
+利用33個ETF類別形成的類別ETF標的，任選類別，計算最適配置權重，寫入`weight.csv`。
 
 ### ETF 類別
 Alternatives BroadAsia Commodity ConsumerDiscretionaryEquity ConsumerStaplesEquity <br />
