@@ -8,7 +8,7 @@
 
 - `PerfomanceQuery`：查詢任一ETF類別中，查詢2013年1月至2019年5月間任一區間各檔ETF的績效，指定以其中一種績效衡量指標排序。
 
-- `Portfolio`：查詢33個ETF類別中，任選其中的類別，計算最適配置權重。
+- `Portfolio`：利用33個ETF類別形成的類別ETF標的，任選類別，計算最適配置權重。
 
 - `RiskFree`：計算 U.S. 10 Year Treasury 月資料與週資料。
 
