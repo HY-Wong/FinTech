@@ -4,7 +4,7 @@
 
 - `ETF`：從33個ETF類別的csv檔中，篩選出inception date在2013年之後有資料的ETF，抓取ETF調整後收盤價（adjusted close）。
 
-- `Perfomance`：利用`ETF`中各檔ETF調整後收盤價（adjusted close），計算月報酬率、週報酬率與ETF績效。
+- `Performance`：利用`ETF`中各檔ETF調整後收盤價（adjusted close），計算月報酬率、週報酬率與ETF績效。
 
 - `PerfomanceQuery`：查詢任一ETF類別中，查詢2013年1月至2019年5月間任一區間各檔ETF的績效，指定以其中一種績效衡量指標排序。
 
